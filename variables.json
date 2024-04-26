@@ -1,0 +1,1303 @@
+{
+  "version": "1.0.4",
+  "metadata": {},
+  "collections": [
+    {
+      "name": "breakpoint alias",
+      "modes": [
+        {
+          "name": "1920+",
+          "variables": [
+            {
+              "name": "typography/h1/font size",
+              "type": "number",
+              "isAlias": false,
+              "value": 128
+            },
+            {
+              "name": "typography/h2/font size",
+              "type": "number",
+              "isAlias": false,
+              "value": 64
+            },
+            {
+              "name": "typography/h2/line height",
+              "type": "number",
+              "isAlias": false,
+              "value": 64
+            },
+            {
+              "name": "typography/h2/letter spacing",
+              "type": "number",
+              "isAlias": false,
+              "value": 0
+            },
+            {
+              "name": "typography/h3/font size",
+              "type": "number",
+              "isAlias": false,
+              "value": 32
+            },
+            {
+              "name": "typography/h3/line height",
+              "type": "number",
+              "isAlias": false,
+              "value": 32
+            },
+            {
+              "name": "typography/h3/letter spacing",
+              "type": "number",
+              "isAlias": false,
+              "value": 0.800000011920929
+            },
+            {
+              "name": "typography/h4/font size",
+              "type": "number",
+              "isAlias": false,
+              "value": 32
+            },
+            {
+              "name": "typography/h4/line height",
+              "type": "number",
+              "isAlias": false,
+              "value": 32
+            },
+            {
+              "name": "typography/h4/letter spacing",
+              "type": "number",
+              "isAlias": false,
+              "value": 0.800000011920929
+            },
+            {
+              "name": "typography/h1/line height",
+              "type": "number",
+              "isAlias": false,
+              "value": 112
+            },
+            {
+              "name": "typography/h1/letter spacing",
+              "type": "number",
+              "isAlias": false,
+              "value": -4
+            },
+            {
+              "name": "typography/button/font size",
+              "type": "number",
+              "isAlias": false,
+              "value": 32
+            },
+            {
+              "name": "typography/button/line height",
+              "type": "number",
+              "isAlias": false,
+              "value": 32
+            },
+            {
+              "name": "spacing/flex/xs",
+              "type": "number",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "spacing/sp16"
+              }
+            },
+            {
+              "name": "spacing/flex/sm",
+              "type": "number",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "spacing/sp16"
+              }
+            },
+            {
+              "name": "spacing/flex/md",
+              "type": "number",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "spacing/sp24"
+              }
+            },
+            {
+              "name": "spacing/flex/lg",
+              "type": "number",
+              "isAlias": false,
+              "value": 0
+            },
+            {
+              "name": "grid/margin",
+              "type": "number",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "spacing/sp8"
+              }
+            },
+            {
+              "name": "typography/button/letter spacing",
+              "type": "number",
+              "isAlias": false,
+              "value": 0.800000011920929
+            },
+            {
+              "name": "typography/button/font weight",
+              "type": "number",
+              "isAlias": false,
+              "value": 700
+            },
+            {
+              "name": "grid/gutter",
+              "type": "number",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "spacing/sp16"
+              }
+            },
+            {
+              "name": "grid/margin correction",
+              "type": "number",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "spacing/sp0"
+              }
+            },
+            {
+              "name": "components/button/vertical padding",
+              "type": "number",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "spacing/sp16"
+              }
+            },
+            {
+              "name": "components/button/horizontal-padding",
+              "type": "number",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "spacing/sp16"
+              }
+            },
+            {
+              "name": "variant swaps/gigi",
+              "type": "string",
+              "isAlias": false,
+              "value": "desktop"
+            }
+          ]
+        },
+        {
+          "name": "1440+",
+          "variables": [
+            {
+              "name": "typography/h1/font size",
+              "type": "number",
+              "isAlias": false,
+              "value": 96
+            },
+            {
+              "name": "typography/h2/font size",
+              "type": "number",
+              "isAlias": false,
+              "value": 48
+            },
+            {
+              "name": "typography/h2/line height",
+              "type": "number",
+              "isAlias": false,
+              "value": 48
+            },
+            {
+              "name": "typography/h2/letter spacing",
+              "type": "number",
+              "isAlias": false,
+              "value": 0
+            },
+            {
+              "name": "typography/h3/font size",
+              "type": "number",
+              "isAlias": false,
+              "value": 24
+            },
+            {
+              "name": "typography/h3/line height",
+              "type": "number",
+              "isAlias": false,
+              "value": 24
+            },
+            {
+              "name": "typography/h3/letter spacing",
+              "type": "number",
+              "isAlias": false,
+              "value": 0.800000011920929
+            },
+            {
+              "name": "typography/h4/font size",
+              "type": "number",
+              "isAlias": false,
+              "value": 24
+            },
+            {
+              "name": "typography/h4/line height",
+              "type": "number",
+              "isAlias": false,
+              "value": 24
+            },
+            {
+              "name": "typography/h4/letter spacing",
+              "type": "number",
+              "isAlias": false,
+              "value": 0.800000011920929
+            },
+            {
+              "name": "typography/h1/line height",
+              "type": "number",
+              "isAlias": false,
+              "value": 96
+            },
+            {
+              "name": "typography/h1/letter spacing",
+              "type": "number",
+              "isAlias": false,
+              "value": -4
+            },
+            {
+              "name": "typography/button/font size",
+              "type": "number",
+              "isAlias": false,
+              "value": 24
+            },
+            {
+              "name": "typography/button/line height",
+              "type": "number",
+              "isAlias": false,
+              "value": 24
+            },
+            {
+              "name": "spacing/flex/xs",
+              "type": "number",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "spacing/sp16"
+              }
+            },
+            {
+              "name": "spacing/flex/sm",
+              "type": "number",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "spacing/sp16"
+              }
+            },
+            {
+              "name": "spacing/flex/md",
+              "type": "number",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "spacing/sp24"
+              }
+            },
+            {
+              "name": "spacing/flex/lg",
+              "type": "number",
+              "isAlias": false,
+              "value": 0
+            },
+            {
+              "name": "grid/margin",
+              "type": "number",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "spacing/sp8"
+              }
+            },
+            {
+              "name": "typography/button/letter spacing",
+              "type": "number",
+              "isAlias": false,
+              "value": 0.800000011920929
+            },
+            {
+              "name": "typography/button/font weight",
+              "type": "number",
+              "isAlias": false,
+              "value": 700
+            },
+            {
+              "name": "grid/gutter",
+              "type": "number",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "spacing/sp8"
+              }
+            },
+            {
+              "name": "grid/margin correction",
+              "type": "number",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "spacing/sp0"
+              }
+            },
+            {
+              "name": "components/button/vertical padding",
+              "type": "number",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "spacing/sp8"
+              }
+            },
+            {
+              "name": "components/button/horizontal-padding",
+              "type": "number",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "spacing/sp8"
+              }
+            },
+            {
+              "name": "variant swaps/gigi",
+              "type": "string",
+              "isAlias": false,
+              "value": "String value"
+            }
+          ]
+        },
+        {
+          "name": "768+",
+          "variables": [
+            {
+              "name": "typography/h1/font size",
+              "type": "number",
+              "isAlias": false,
+              "value": 128
+            },
+            {
+              "name": "typography/h2/font size",
+              "type": "number",
+              "isAlias": false,
+              "value": 64
+            },
+            {
+              "name": "typography/h2/line height",
+              "type": "number",
+              "isAlias": false,
+              "value": 64
+            },
+            {
+              "name": "typography/h2/letter spacing",
+              "type": "number",
+              "isAlias": false,
+              "value": 0
+            },
+            {
+              "name": "typography/h3/font size",
+              "type": "number",
+              "isAlias": false,
+              "value": 32
+            },
+            {
+              "name": "typography/h3/line height",
+              "type": "number",
+              "isAlias": false,
+              "value": 32
+            },
+            {
+              "name": "typography/h3/letter spacing",
+              "type": "number",
+              "isAlias": false,
+              "value": 0.800000011920929
+            },
+            {
+              "name": "typography/h4/font size",
+              "type": "number",
+              "isAlias": false,
+              "value": 16
+            },
+            {
+              "name": "typography/h4/line height",
+              "type": "number",
+              "isAlias": false,
+              "value": 16
+            },
+            {
+              "name": "typography/h4/letter spacing",
+              "type": "number",
+              "isAlias": false,
+              "value": 0.800000011920929
+            },
+            {
+              "name": "typography/h1/line height",
+              "type": "number",
+              "isAlias": false,
+              "value": 112
+            },
+            {
+              "name": "typography/h1/letter spacing",
+              "type": "number",
+              "isAlias": false,
+              "value": -4
+            },
+            {
+              "name": "typography/button/font size",
+              "type": "number",
+              "isAlias": false,
+              "value": 24
+            },
+            {
+              "name": "typography/button/line height",
+              "type": "number",
+              "isAlias": false,
+              "value": 24
+            },
+            {
+              "name": "spacing/flex/xs",
+              "type": "number",
+              "isAlias": false,
+              "value": 0
+            },
+            {
+              "name": "spacing/flex/sm",
+              "type": "number",
+              "isAlias": false,
+              "value": 0
+            },
+            {
+              "name": "spacing/flex/md",
+              "type": "number",
+              "isAlias": false,
+              "value": 0
+            },
+            {
+              "name": "spacing/flex/lg",
+              "type": "number",
+              "isAlias": false,
+              "value": 0
+            },
+            {
+              "name": "grid/margin",
+              "type": "number",
+              "isAlias": false,
+              "value": 0
+            },
+            {
+              "name": "typography/button/letter spacing",
+              "type": "number",
+              "isAlias": false,
+              "value": 0.800000011920929
+            },
+            {
+              "name": "typography/button/font weight",
+              "type": "number",
+              "isAlias": false,
+              "value": 700
+            },
+            {
+              "name": "grid/gutter",
+              "type": "number",
+              "isAlias": false,
+              "value": 0
+            },
+            {
+              "name": "grid/margin correction",
+              "type": "number",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "spacing/sp8"
+              }
+            },
+            {
+              "name": "components/button/vertical padding",
+              "type": "number",
+              "isAlias": false,
+              "value": 0
+            },
+            {
+              "name": "components/button/horizontal-padding",
+              "type": "number",
+              "isAlias": false,
+              "value": 0
+            },
+            {
+              "name": "variant swaps/gigi",
+              "type": "string",
+              "isAlias": false,
+              "value": "String value"
+            }
+          ]
+        },
+        {
+          "name": "0+",
+          "variables": [
+            {
+              "name": "typography/h1/font size",
+              "type": "number",
+              "isAlias": false,
+              "value": 48
+            },
+            {
+              "name": "typography/h2/font size",
+              "type": "number",
+              "isAlias": false,
+              "value": 24
+            },
+            {
+              "name": "typography/h2/line height",
+              "type": "number",
+              "isAlias": false,
+              "value": 20
+            },
+            {
+              "name": "typography/h2/letter spacing",
+              "type": "number",
+              "isAlias": false,
+              "value": 0
+            },
+            {
+              "name": "typography/h3/font size",
+              "type": "number",
+              "isAlias": false,
+              "value": 16
+            },
+            {
+              "name": "typography/h3/line height",
+              "type": "number",
+              "isAlias": false,
+              "value": 16
+            },
+            {
+              "name": "typography/h3/letter spacing",
+              "type": "number",
+              "isAlias": false,
+              "value": 0.800000011920929
+            },
+            {
+              "name": "typography/h4/font size",
+              "type": "number",
+              "isAlias": false,
+              "value": 16
+            },
+            {
+              "name": "typography/h4/line height",
+              "type": "number",
+              "isAlias": false,
+              "value": 16
+            },
+            {
+              "name": "typography/h4/letter spacing",
+              "type": "number",
+              "isAlias": false,
+              "value": 0.800000011920929
+            },
+            {
+              "name": "typography/h1/line height",
+              "type": "number",
+              "isAlias": false,
+              "value": 40
+            },
+            {
+              "name": "typography/h1/letter spacing",
+              "type": "number",
+              "isAlias": false,
+              "value": -0.4000000059604645
+            },
+            {
+              "name": "typography/button/font size",
+              "type": "number",
+              "isAlias": false,
+              "value": 16
+            },
+            {
+              "name": "typography/button/line height",
+              "type": "number",
+              "isAlias": false,
+              "value": 16
+            },
+            {
+              "name": "spacing/flex/xs",
+              "type": "number",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "spacing/sp8"
+              }
+            },
+            {
+              "name": "spacing/flex/sm",
+              "type": "number",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "spacing/sp16"
+              }
+            },
+            {
+              "name": "spacing/flex/md",
+              "type": "number",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "spacing/sp24"
+              }
+            },
+            {
+              "name": "spacing/flex/lg",
+              "type": "number",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "spacing/sp48"
+              }
+            },
+            {
+              "name": "grid/margin",
+              "type": "number",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "spacing/sp16"
+              }
+            },
+            {
+              "name": "typography/button/letter spacing",
+              "type": "number",
+              "isAlias": false,
+              "value": 0.800000011920929
+            },
+            {
+              "name": "typography/button/font weight",
+              "type": "number",
+              "isAlias": false,
+              "value": 700
+            },
+            {
+              "name": "grid/gutter",
+              "type": "number",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "spacing/sp8"
+              }
+            },
+            {
+              "name": "grid/margin correction",
+              "type": "number",
+              "isAlias": false,
+              "value": 0
+            },
+            {
+              "name": "components/button/vertical padding",
+              "type": "number",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "spacing/sp8"
+              }
+            },
+            {
+              "name": "components/button/horizontal-padding",
+              "type": "number",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "spacing/sp8"
+              }
+            },
+            {
+              "name": "variant swaps/gigi",
+              "type": "string",
+              "isAlias": false,
+              "value": "mobile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "_base",
+      "modes": [
+        {
+          "name": "Mode 1",
+          "variables": [
+            {
+              "name": "color/brown",
+              "type": "color",
+              "isAlias": false,
+              "value": "#935E25"
+            },
+            {
+              "name": "color/yellow",
+              "type": "color",
+              "isAlias": false,
+              "value": "#EAFF66"
+            },
+            {
+              "name": "color/green",
+              "type": "color",
+              "isAlias": false,
+              "value": "#00B166"
+            },
+            {
+              "name": "color/purple",
+              "type": "color",
+              "isAlias": false,
+              "value": "#A766FF"
+            },
+            {
+              "name": "color/red",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FF4C4C"
+            },
+            {
+              "name": "color/blue",
+              "type": "color",
+              "isAlias": false,
+              "value": "#007BFF"
+            },
+            {
+              "name": "color/black",
+              "type": "color",
+              "isAlias": false,
+              "value": "#000000"
+            },
+            {
+              "name": "color/white",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FFFFFF"
+            },
+            {
+              "name": "spacing/sp0",
+              "type": "number",
+              "isAlias": false,
+              "value": 0
+            },
+            {
+              "name": "spacing/sp8",
+              "type": "number",
+              "isAlias": false,
+              "value": 8
+            },
+            {
+              "name": "spacing/sp16",
+              "type": "number",
+              "isAlias": false,
+              "value": 16
+            },
+            {
+              "name": "spacing/sp24",
+              "type": "number",
+              "isAlias": false,
+              "value": 24
+            },
+            {
+              "name": "spacing/sp32",
+              "type": "number",
+              "isAlias": false,
+              "value": 32
+            },
+            {
+              "name": "spacing/sp48",
+              "type": "number",
+              "isAlias": false,
+              "value": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "color alias",
+      "modes": [
+        {
+          "name": "Mode 1",
+          "variables": [
+            {
+              "name": "primary/day0",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "color/brown"
+              }
+            },
+            {
+              "name": "primary/day1",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "color/blue"
+              }
+            },
+            {
+              "name": "primary/day2",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "color/green"
+              }
+            },
+            {
+              "name": "primary/day3",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "color/purple"
+              }
+            },
+            {
+              "name": "primary/day4",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "color/red"
+              }
+            },
+            {
+              "name": "text/strong",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "color/black"
+              }
+            },
+            {
+              "name": "components/button/background/default",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "color/yellow"
+              }
+            },
+            {
+              "name": "components/button/foreground/default",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "color/green"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "day alias",
+      "modes": [
+        {
+          "name": "friday",
+          "variables": [
+            {
+              "name": "color/primary",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "color/blue"
+              }
+            },
+            {
+              "name": "content/media/friday",
+              "type": "boolean",
+              "isAlias": false,
+              "value": true
+            },
+            {
+              "name": "content/tropic disco/action",
+              "type": "string",
+              "isAlias": false,
+              "value": "meets"
+            },
+            {
+              "name": "content/media/saturday",
+              "type": "boolean",
+              "isAlias": false,
+              "value": false
+            },
+            {
+              "name": "content/media/sunday",
+              "type": "boolean",
+              "isAlias": false,
+              "value": false
+            },
+            {
+              "name": "content/media/monday",
+              "type": "boolean",
+              "isAlias": false,
+              "value": false
+            },
+            {
+              "name": "content/date and time/date",
+              "type": "string",
+              "isAlias": false,
+              "value": "17 may 2024"
+            },
+            {
+              "name": "content/date and time/start",
+              "type": "string",
+              "isAlias": false,
+              "value": "16:00"
+            },
+            {
+              "name": "content/date and time/end",
+              "type": "string",
+              "isAlias": false,
+              "value": "22:00"
+            }
+          ]
+        },
+        {
+          "name": "saturday",
+          "variables": [
+            {
+              "name": "color/primary",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "color/green"
+              }
+            },
+            {
+              "name": "content/media/friday",
+              "type": "boolean",
+              "isAlias": false,
+              "value": false
+            },
+            {
+              "name": "content/tropic disco/action",
+              "type": "string",
+              "isAlias": false,
+              "value": "meets"
+            },
+            {
+              "name": "content/media/saturday",
+              "type": "boolean",
+              "isAlias": false,
+              "value": true
+            },
+            {
+              "name": "content/media/sunday",
+              "type": "boolean",
+              "isAlias": false,
+              "value": false
+            },
+            {
+              "name": "content/media/monday",
+              "type": "boolean",
+              "isAlias": false,
+              "value": false
+            },
+            {
+              "name": "content/date and time/date",
+              "type": "string",
+              "isAlias": false,
+              "value": "18 may 2024"
+            },
+            {
+              "name": "content/date and time/start",
+              "type": "string",
+              "isAlias": false,
+              "value": "12:00"
+            },
+            {
+              "name": "content/date and time/end",
+              "type": "string",
+              "isAlias": false,
+              "value": "22:00"
+            }
+          ]
+        },
+        {
+          "name": "sunday",
+          "variables": [
+            {
+              "name": "color/primary",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "color/purple"
+              }
+            },
+            {
+              "name": "content/media/friday",
+              "type": "boolean",
+              "isAlias": false,
+              "value": false
+            },
+            {
+              "name": "content/tropic disco/action",
+              "type": "string",
+              "isAlias": false,
+              "value": "meets"
+            },
+            {
+              "name": "content/media/saturday",
+              "type": "boolean",
+              "isAlias": false,
+              "value": false
+            },
+            {
+              "name": "content/media/sunday",
+              "type": "boolean",
+              "isAlias": false,
+              "value": true
+            },
+            {
+              "name": "content/media/monday",
+              "type": "boolean",
+              "isAlias": false,
+              "value": false
+            },
+            {
+              "name": "content/date and time/date",
+              "type": "string",
+              "isAlias": false,
+              "value": "19 may 2024"
+            },
+            {
+              "name": "content/date and time/start",
+              "type": "string",
+              "isAlias": false,
+              "value": "12:00"
+            },
+            {
+              "name": "content/date and time/end",
+              "type": "string",
+              "isAlias": false,
+              "value": "22:00"
+            }
+          ]
+        },
+        {
+          "name": "monday",
+          "variables": [
+            {
+              "name": "color/primary",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "_base",
+                "name": "color/red"
+              }
+            },
+            {
+              "name": "content/media/friday",
+              "type": "boolean",
+              "isAlias": false,
+              "value": false
+            },
+            {
+              "name": "content/tropic disco/action",
+              "type": "string",
+              "isAlias": false,
+              "value": "presents"
+            },
+            {
+              "name": "content/media/saturday",
+              "type": "boolean",
+              "isAlias": false,
+              "value": false
+            },
+            {
+              "name": "content/media/sunday",
+              "type": "boolean",
+              "isAlias": false,
+              "value": false
+            },
+            {
+              "name": "content/media/monday",
+              "type": "boolean",
+              "isAlias": false,
+              "value": true
+            },
+            {
+              "name": "content/date and time/date",
+              "type": "string",
+              "isAlias": false,
+              "value": "20 may 2024"
+            },
+            {
+              "name": "content/date and time/start",
+              "type": "string",
+              "isAlias": false,
+              "value": "12:00"
+            },
+            {
+              "name": "content/date and time/end",
+              "type": "string",
+              "isAlias": false,
+              "value": "18:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Typography",
+      "modes": [
+        {
+          "name": "Style",
+          "variables": [
+            {
+              "name": "web/h1",
+              "type": "typography",
+              "isAlias": false,
+              "value": {
+                "fontSize": 128,
+                "fontFamily": "Akzidenz-Grotesk Next",
+                "fontWeight": "Bold",
+                "lineHeight": 112,
+                "lineHeightUnit": "PIXELS",
+                "letterSpacing": -4,
+                "letterSpacingUnit": "PIXELS",
+                "textCase": "UPPER",
+                "textDecoration": "NONE"
+              }
+            },
+            {
+              "name": "web/h2",
+              "type": "typography",
+              "isAlias": false,
+              "value": {
+                "fontSize": 64,
+                "fontFamily": "Akzidenz-Grotesk Next",
+                "fontWeight": "Bold",
+                "lineHeight": 64,
+                "lineHeightUnit": "PIXELS",
+                "letterSpacing": 0,
+                "letterSpacingUnit": "PIXELS",
+                "textCase": "UPPER",
+                "textDecoration": "NONE"
+              }
+            },
+            {
+              "name": "web/h3",
+              "type": "typography",
+              "isAlias": false,
+              "value": {
+                "fontSize": 32,
+                "fontFamily": "Akzidenz-Grotesk Next",
+                "fontWeight": "Bold",
+                "lineHeight": 32,
+                "lineHeightUnit": "PIXELS",
+                "letterSpacing": 0.800000011920929,
+                "letterSpacingUnit": "PIXELS",
+                "textCase": "UPPER",
+                "textDecoration": "NONE"
+              }
+            },
+            {
+              "name": "web/h4",
+              "type": "typography",
+              "isAlias": false,
+              "value": {
+                "fontSize": 32,
+                "fontFamily": "Akzidenz-Grotesk Next",
+                "fontWeight": "Bold",
+                "lineHeight": 32,
+                "lineHeightUnit": "PIXELS",
+                "letterSpacing": 0.800000011920929,
+                "letterSpacingUnit": "PIXELS",
+                "textCase": "UPPER",
+                "textDecoration": "NONE"
+              }
+            },
+            {
+              "name": "web/button",
+              "type": "typography",
+              "isAlias": false,
+              "value": {
+                "fontSize": 32,
+                "fontFamily": "Akzidenz-Grotesk Next",
+                "fontWeight": "Bold",
+                "lineHeight": 32,
+                "lineHeightUnit": "PIXELS",
+                "letterSpacing": 0.800000011920929,
+                "letterSpacingUnit": "PIXELS",
+                "textCase": "UPPER",
+                "textDecoration": "NONE"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Grids",
+      "modes": [
+        {
+          "name": "Style",
+          "variables": [
+            {
+              "name": "hide all",
+              "type": "grid",
+              "isAlias": false,
+              "value": {
+                "layoutGrids": [
+                  {
+                    "pattern": "ROWS",
+                    "color": {
+                      "r": 245,
+                      "g": 245,
+                      "b": 245,
+                      "a": 1
+                    },
+                    "alignment": "STRETCH",
+                    "gutterSize": 932,
+                    "offset": 0,
+                    "count": 2
+                  }
+                ]
+              }
+            },
+            {
+              "name": "default",
+              "type": "grid",
+              "isAlias": false,
+              "value": {
+                "layoutGrids": [
+                  {
+                    "pattern": "ROWS",
+                    "color": {
+                      "r": 255,
+                      "g": 0,
+                      "b": 0,
+                      "a": 0.1
+                    },
+                    "alignment": "STRETCH",
+                    "gutterSize": 20,
+                    "offset": 116,
+                    "count": 1
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+/* testa */
+
+.testa {
+    display: flex;
+  padding-bottom: var(--spacing-flex-sm, 16px);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-flex-sm, 16px);
+  align-self: stretch;
+  }
+  
+    .day-definition {
+      display: flex;
+    padding: 0px var(--grid-margin-correction, 0px);
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    }
+  
+      .start-time-container {
+        display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      }
+
+        .all .start-time-container {
+        display: none;
+        }
+  
+        .opening-time {
+        text-align: center;
+        }
+  
+      .end-time-container {
+        display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      }
+
+      .all .end-time-container {
+        display: none;
+        }
+  
+        .closing-time {
+        text-align: center;
+        }
+  
+    .date-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 8px;
+      flex: 1 0 0;
+    }
+  
+      .date {
+      text-align: center;
+      }
+  
+  
+    .location {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      align-self: stretch;
+    }
+  
+      .spot {
+      text-align: center;
+      flex: 1 0 0;
+      }

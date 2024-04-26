@@ -1,0 +1,146 @@
+/* Base Variables */
+:root {
+  --color-brown: #935E25;
+  --color-yellow: #EAFF66;
+  --color-green: #00B166;
+  --color-purple: #A766FF;
+  --color-red: #FF4C4C;
+  --color-blue: #007BFF;
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+  --spacing-sp0: 0px;
+  --spacing-sp8: 8px;
+  --spacing-sp16: 16px;
+  --spacing-sp24: 24px;
+  --spacing-sp32: 32px;
+  --spacing-sp48: 48px;
+  
+  --primary-day0: var(--color-brown);
+  --primary-day1: var(--color-blue);
+  --primary-day2: var(--color-green);
+  --primary-day3: var(--color-purple);
+  --primary-day4: var(--color-red);
+  --text-strong: var(--color-black);
+}
+
+/* Media Queries */
+@media (min-width: 1920px) {
+  :root {
+      --typography-h1-font-size: 128px;
+      --typography-h2-font-size: 64px;
+      --typography-h2-line-height: 46px;
+      --typography-h2-letter-spacing: 0;
+      --typography-h3-font-size: 32px;
+      --typography-h3-line-height: 23px;
+      --typography-h3-letter-spacing: 0.800000011920929px;
+      --typography-h4-font-size: 32px;
+      --typography-h4-line-height: 32px;
+      --typography-h4-letter-spacing: 0.800000011920929px;
+      --typography-h1-line-height: 92px;
+      --typography-h1-letter-spacing: -4px;
+      --typography-button-font-size: 32px;
+      --typography-button-line-height: 32px;
+      --spacing-flex-xs: var(--spacing-sp16);
+      --spacing-flex-sm: var(--spacing-sp16);
+      --spacing-flex-md: var(--spacing-sp24);
+      --spacing-flex-lg: var(--spacing-sp48);
+      --grid-margin: var(--spacing-sp8);
+      --typography-button-letter-spacing: 0.800000011920929px;
+      --typography-button-font-weight: 700;
+      --grid-gutter: var(--spacing-sp16);
+      --grid-margin-correction: var(--spacing-sp0);
+      --components-button-vertical-padding: var(--spacing-sp16);
+      --components-button-horizontal-padding: var(--spacing-sp16);
+      --variantswaps-gigi: "desktop";
+  }
+}
+@media (min-width: 1440px) and (max-width: 1919px) {
+  :root {
+      --typography-h1-font-size: 96px;
+      --typography-h2-font-size: 48px;
+      --typography-h2-line-height: 35px;
+      --typography-h2-letter-spacing: 0;
+      --typography-h3-font-size: 24px;
+      --typography-h3-line-height: 17px;
+      --typography-h3-letter-spacing: 0.800000011920929px;
+      --typography-h4-font-size: 24px;
+      --typography-h4-line-height: 17px;
+      --typography-h4-letter-spacing: 0.800000011920929px;
+      --typography-h1-line-height: 69px;
+      --typography-h1-letter-spacing: -4px;
+      --typography-button-font-size: 24px;
+      --typography-button-line-height: 17px;
+      --spacing-flex-xs: var(--spacing-sp16);
+      --spacing-flex-sm: var(--spacing-sp16);
+      --spacing-flex-md: var(--spacing-sp24);
+      --spacing-flex-lg: var(--spacing-sp48);
+      --grid-margin: var(--spacing-sp8);
+      --typography-button-letter-spacing: 0.800000011920929px;
+      --typography-button-font-weight: 700;
+      --grid-gutter: var(--spacing-sp16);
+      --grid-margin-correction: var(--spacing-sp0);
+      --components-button-vertical-padding: var(--spacing-sp8);
+      --components-button-horizontal-padding: var(--spacing-sp8);
+      --variantswaps-gigi: "String value";
+  }
+}
+@media (min-width: 768px) and (max-width: 1439px) {
+  :root {
+      --typography-h1-font-size: 64px;
+      --typography-h2-font-size: 32px;
+      --typography-h2-line-height: 23px;
+      --typography-h2-letter-spacing: 0;
+      --typography-h3-font-size: 20px;
+      --typography-h3-line-height: 14px;
+      --typography-h3-letter-spacing: 0.800000011920929px;
+      --typography-h4-font-size: 20px;
+      --typography-h4-line-height: 14px;
+      --typography-h4-letter-spacing: 0.800000011920929px;
+      --typography-h1-line-height: 46px;
+      --typography-h1-letter-spacing: -4px;
+      --typography-button-font-size: 20px;
+      --typography-button-line-height: 14px;
+      --spacing-flex-xs: var(--spacing-sp8);
+      --spacing-flex-sm: var(--spacing-sp16);
+      --spacing-flex-md: var(--spacing-sp24);
+      --spacing-flex-lg: var(--spacing-sp48);
+      --grid-margin: var(--spacing-sp8);
+      --typography-button-letter-spacing: 0.800000011920929px;
+      --typography-button-font-weight: 700;
+      --grid-gutter: var(--spacing-sp8);
+      --grid-margin-correction: var(--spacing-sp8);
+      --components-button-vertical-padding: var(--spacing-sp8);
+      --components-button-horizontal-padding: var(--spacing-sp8);
+      --variantswaps-gigi: "String value";
+  }
+}
+@media (max-width: 767px) {
+  :root {
+      --typography-h1-font-size: 48px;
+      --typography-h2-font-size: 24px;
+      --typography-h2-line-height: 17px;
+      --typography-h2-letter-spacing: 0;
+      --typography-h3-font-size: 16px;
+      --typography-h3-line-height: 12px;
+      --typography-h3-letter-spacing: 0.800000011920929px;
+      --typography-h4-font-size: 16px;
+      --typography-h4-line-height: 12px;
+      --typography-h4-letter-spacing: 0.800000011920929px;
+      --typography-h1-line-height: 35px;
+      --typography-h1-letter-spacing: -0.4000000059604645px;
+      --typography-button-font-size: 16px;
+      --typography-button-line-height: 12px;
+      --spacing-flex-xs: var(--spacing-sp8);
+      --spacing-flex-sm: var(--spacing-sp16);
+      --spacing-flex-md: var(--spacing-sp24);
+      --spacing-flex-lg: var(--spacing-sp48);
+      --grid-margin: var(--spacing-sp8);
+      --typography-button-letter-spacing: 0.800000011920929px;
+      --typography-button-font-weight: 700;
+      --grid-gutter: var(--spacing-sp8);
+      --grid-margin-correction: var(--spacing-sp8);
+      --components-button-vertical-padding: var(--spacing-sp8);
+      --components-button-horizontal-padding: var(--spacing-sp8);
+      --variantswaps-gigi: "mobile";
+  }
+}

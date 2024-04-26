@@ -1,0 +1,156 @@
+// Base Variables
+$color-brown: #935E25;
+$color-yellow: #EAFF66;
+$color-green: #00B166;
+$color-purple: #A766FF;
+$color-red: #FF4C4C;
+$color-blue: #007BFF;
+$color-black: #000000;
+$color-white: #FFFFFF;
+$spacing-sp0: 0px;
+$spacing-sp8: 8px;
+$spacing-sp16: 16px;
+$spacing-sp24: 24px;
+$spacing-sp32: 32px;
+$spacing-sp48: 48px;
+
+// Media Queries
+@media (min-width: 1920px) {
+    $typography-h1-font-size: 128;
+    $typography-h2-font-size: 64;
+    $typography-h2-line-height: 64;
+    $typography-h2-letter-spacing: 0;
+    $typography-h3-font-size: 32;
+    $typography-h3-line-height: 32;
+    $typography-h3-letter-spacing: 0.800000011920929;
+    $typography-h4-font-size: 32;
+    $typography-h4-line-height: 32;
+    $typography-h4-letter-spacing: 0.800000011920929;
+    $typography-h1-line-height: 112;
+    $typography-h1-letter-spacing: -4;
+    $typography-button-font-size: 32;
+    $typography-button-line-height: 32;
+    $spacing-flex-xs: var(--spacing-sp16);
+    $spacing-flex-sm: var(--spacing-sp16);
+    $spacing-flex-md: var(--spacing-sp24);
+    $spacing-flex-lg: 0;
+    $grid-margin: var(--spacing-sp8);
+    $typography-button-letter-spacing: 0.800000011920929;
+    $typography-button-font-weight: 700;
+    $grid-gutter: var(--spacing-sp16);
+    $grid-margin-correction: var(--spacing-sp0);
+    $components-button-vertical-padding: var(--spacing-sp16);
+    $components-button-horizontal-padding: var(--spacing-sp16);
+    $variant-swaps-gigi: desktop;
+}
+@media (min-width: 1440px) and (max-width: 1919px) {
+    $typography-h1-font-size: 96;
+    $typography-h2-font-size: 48;
+    $typography-h2-line-height: 48;
+    $typography-h2-letter-spacing: 0;
+    $typography-h3-font-size: 24;
+    $typography-h3-line-height: 24;
+    $typography-h3-letter-spacing: 0.800000011920929;
+    $typography-h4-font-size: 24;
+    $typography-h4-line-height: 24;
+    $typography-h4-letter-spacing: 0.800000011920929;
+    $typography-h1-line-height: 96;
+    $typography-h1-letter-spacing: -4;
+    $typography-button-font-size: 24;
+    $typography-button-line-height: 24;
+    $spacing-flex-xs: var(--spacing-sp16);
+    $spacing-flex-sm: var(--spacing-sp16);
+    $spacing-flex-md: var(--spacing-sp24);
+    $spacing-flex-lg: 0;
+    $grid-margin: var(--spacing-sp8);
+    $typography-button-letter-spacing: 0.800000011920929;
+    $typography-button-font-weight: 700;
+    $grid-gutter: var(--spacing-sp8);
+    $grid-margin-correction: var(--spacing-sp0);
+    $components-button-vertical-padding: var(--spacing-sp8);
+    $components-button-horizontal-padding: var(--spacing-sp8);
+    $variant-swaps-gigi: String value;
+}
+@media (min-width: 1080px) and (max-width: 1439px) {
+}
+@media (min-width: 768px) and (max-width: 1079px) {
+    $typography-h1-font-size: 128;
+    $typography-h2-font-size: 64;
+    $typography-h2-line-height: 64;
+    $typography-h2-letter-spacing: 0;
+    $typography-h3-font-size: 32;
+    $typography-h3-line-height: 32;
+    $typography-h3-letter-spacing: 0.800000011920929;
+    $typography-h4-font-size: 16;
+    $typography-h4-line-height: 16;
+    $typography-h4-letter-spacing: 0.800000011920929;
+    $typography-h1-line-height: 112;
+    $typography-h1-letter-spacing: -4;
+    $typography-button-font-size: 24;
+    $typography-button-line-height: 24;
+    $spacing-flex-xs: 0;
+    $spacing-flex-sm: 0;
+    $spacing-flex-md: 0;
+    $spacing-flex-lg: 0;
+    $grid-margin: 0;
+    $typography-button-letter-spacing: 0.800000011920929;
+    $typography-button-font-weight: 700;
+    $grid-gutter: 0;
+    $grid-margin-correction: var(--spacing-sp8);
+    $components-button-vertical-padding: 0;
+    $components-button-horizontal-padding: 0;
+    $variant-swaps-gigi: String value;
+}
+@media (max-width: 767px) {
+    $typography-h1-font-size: 48;
+    $typography-h2-font-size: 24;
+    $typography-h2-line-height: 20;
+    $typography-h2-letter-spacing: 0;
+    $typography-h3-font-size: 16;
+    $typography-h3-line-height: 16;
+    $typography-h3-letter-spacing: 0.800000011920929;
+    $typography-h4-font-size: 16;
+    $typography-h4-line-height: 16;
+    $typography-h4-letter-spacing: 0.800000011920929;
+    $typography-h1-line-height: 40;
+    $typography-h1-letter-spacing: -0.4000000059604645;
+    $typography-button-font-size: 16;
+    $typography-button-line-height: 16;
+    $spacing-flex-xs: var(--spacing-sp8);
+    $spacing-flex-sm: var(--spacing-sp16);
+    $spacing-flex-md: var(--spacing-sp24);
+    $spacing-flex-lg: var(--spacing-sp48);
+    $grid-margin: var(--spacing-sp16);
+    $typography-button-letter-spacing: 0.800000011920929;
+    $typography-button-font-weight: 700;
+    $grid-gutter: var(--spacing-sp8);
+    $grid-margin-correction: 0;
+    $components-button-vertical-padding: var(--spacing-sp8);
+    $components-button-horizontal-padding: var(--spacing-sp8);
+    $variant-swaps-gigi: mobile;
+}
+
+// Modes Styles
+.venerdi {
+    background-color: var(--color-friday);
+    color: white;
+}
+.sabato {
+    background-color: var(--color-saturday);
+    color: black;
+}
+.domenica {
+    background-color: var(--color-sunday);
+    color: grey;
+}
+.lunedi {
+    background-color: var(--color-monday);
+    color: blue;
+}
+
+
+.salo {
+    height: 200px;
+    width: 200px;
+    background-color: #00B166;
+}

@@ -1,0 +1,23 @@
+.host {
+    display: flex;
+padding-bottom: var(--spacing-flex-xs, 8px);
+flex-direction: column;
+align-items: flex-start;
+gap: var(--spacing-flex-xs, 8px);
+align-self: stretch;
+}
+
+    .host-line-1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+
+    .host-line-2 {
+        display: flex;
+        padding: 0px var(--grid-margin-correction, 0px);
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+    }

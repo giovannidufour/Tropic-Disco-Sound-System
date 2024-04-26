@@ -1,0 +1,43 @@
+h1, h2, h3, h4 {
+    margin: 0;
+    font-family: Anton, Arial;
+    letter-spacing: normal !important;
+
+  }
+  
+  h1 {
+    font-size: var(--typography-h1-font-size);
+    font-style: normal;
+    font-weight: 700;
+    line-height: var(--typography-h1-line-height); /* 83.333% */
+    letter-spacing: var(--typography-h1-letter-spacing, -0.4px);
+    text-transform: uppercase;
+
+  }
+
+  h2 {
+  font-size: var(--typography-h2-font-size, 24px);
+  font-style: normal;
+  font-weight: 900;
+  line-height: var(--typography-h2-line-height); /* 83.333% */
+  letter-spacing: var(--typography-h2-letter-spacing, 0px);
+  text-transform: uppercase;
+  }
+  
+  h3 {
+  font-size: var(--typography-h3-font-size, 16px);
+  font-style: normal;
+  font-weight: 900;
+  line-height: var(--typography-h3-line-height); /* 100% */
+  letter-spacing: var(--typography-h3-letter-spacing, 0.8px);
+  text-transform: uppercase;
+  }
+  
+  h4 {
+  font-size: var(--typography-h4-font-size, 16px);
+  font-style: normal;
+  font-weight: 900;
+  line-height: var(--typography-h4-line-height); /* 100% */
+  letter-spacing: var(--typography-h4-letter-spacing, 0.8px);
+  text-transform: uppercase;
+  }
